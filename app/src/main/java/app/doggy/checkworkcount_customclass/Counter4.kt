@@ -9,11 +9,11 @@ class Counter4(count: Int) {
 
     // インスタンス化した時に実行する初期化処理
     init {
-        // インスタンスの個数numberを1つ増やす
+        // インスタンスの個数numberの値を1増やす
         number += 1
 
         // インスタンスの個数をLogcatに出力する
-        Log.d(NUMBER, "${Counter4.number}個目のインスタンスを生成しました")
+        Log.d(NUMBER, "${number}個目のCounter4インスタンスを生成しました")
     }
 
     fun incr() {

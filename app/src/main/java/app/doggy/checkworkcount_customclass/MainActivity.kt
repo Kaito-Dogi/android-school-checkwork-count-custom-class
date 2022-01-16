@@ -15,15 +15,15 @@ class MainActivity : AppCompatActivity() {
 
 //        // 手順1
 //        // Counter1クラスをインスタンス化
-//        val counter1 = Counter1()
+//        val counter = Counter1()
 //
 //        // plus_buttonをクリックした時の処理
 //        binding.plusButton.setOnClickListener {
 //            // countプロパティの値を1増やす
-//            counter1.count += 1
+//            counter.count += 1
 //
 //            // countプロパティの値をcount_textに表示する
-//            binding.countText.text = counter1.count.toString()
+//            binding.countText.text = counter.count.toString()
 //        }
 
 //        // 手順2
@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
         binding.plusButton.setOnClickListener {
             // countプロパティの値を1増やす
             counter4.incr()
+            // counter4.count += 1
 
             // countプロパティの値をcount_textに表示する
             binding.countText.text = counter4.count.toString()
