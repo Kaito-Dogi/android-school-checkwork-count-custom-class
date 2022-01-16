@@ -1,24 +1,24 @@
 package app.doggy.checkworkcount_customclass
 
-//class Counter2 constructor(number: Int) {
-//    var number: Int = number
+//class Counter2 constructor(count: Int) {
+//    var count: Int = count
 //
-//    // numberプロパティの値を1増やすメソッド
+//    // countプロパティの値を1増やすメソッド
 //    fun incr() {
-//        number += 1
+//        count += 1
 //    }
 //}
 
-//class Counter2(number: Int) {
-//    var number: Int = number
+//class Counter2(count: Int) {
+//    var count: Int = count
 //
 //    fun incr() {
-//        number += 1
+//        count += 1
 //    }
 //}
 
-class Counter2(var number: Int) {
+class Counter2(var count: Int) {
     fun incr() {
-        number += 1
+        count += 1
     }
 }

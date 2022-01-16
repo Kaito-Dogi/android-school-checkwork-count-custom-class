@@ -1,5 +1,5 @@
 package app.doggy.checkworkcount_customclass
 
 class Counter1 {
-    var number: Int = 0
+    var count: Int = 0
 }

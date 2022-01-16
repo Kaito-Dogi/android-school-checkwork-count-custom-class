@@ -19,11 +19,11 @@ class MainActivity : AppCompatActivity() {
 //
 //        // plus_buttonをクリックした時の処理
 //        binding.plusButton.setOnClickListener {
-//            // numberプロパティの値を1増やす
-//            counter1.number += 1
+//            // countプロパティの値を1増やす
+//            counter1.count += 1
 //
-//            // numberプロパティの値をcount_textに表示する
-//            binding.countText.text = counter1.number.toString()
+//            // countプロパティの値をcount_textに表示する
+//            binding.countText.text = counter1.count.toString()
 //        }
 
 //        // 手順2
