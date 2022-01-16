@@ -2,6 +2,7 @@ package app.doggy.checkworkcount_customclass
 
 import android.util.Log
 
+// 手順4
 class Counter4(count: Int) {
     var count: Int = count
         // countプロパティの値をクラス外で変更できないようにする
