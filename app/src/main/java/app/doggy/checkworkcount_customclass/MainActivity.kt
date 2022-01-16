@@ -39,17 +39,30 @@ class MainActivity : AppCompatActivity() {
 //            binding.countText.text = counter2.count.toString()
 //        }
 
-        // 手順3
-        // countプロパティの初期値に0を渡し、Counter3クラスをインスタンス化
-        val counter3 = Counter3(0)
+//        // 手順3
+//        // countプロパティの初期値に0を渡し、Counter3クラスをインスタンス化
+//        val counter3 = Counter3(0)
+//
+//        // plus_buttonをクリックした時の処理
+//        binding.plusButton.setOnClickListener {
+//            // countプロパティの値を1増やす
+//            counter3.incr()
+//
+//            // countプロパティの値をcount_textに表示する
+//            binding.countText.text = counter3.count.toString()
+//        }
+
+        // 手順4
+        // countプロパティの初期値に0を渡し、Counter4クラスをインスタンス化
+        val counter4 = Counter4(0)
 
         // plus_buttonをクリックした時の処理
         binding.plusButton.setOnClickListener {
             // countプロパティの値を1増やす
-            counter3.incr()
+            counter4.incr()
 
             // countプロパティの値をcount_textに表示する
-            binding.countText.text = counter3.count.toString()
+            binding.countText.text = counter4.count.toString()
         }
     }
 }
